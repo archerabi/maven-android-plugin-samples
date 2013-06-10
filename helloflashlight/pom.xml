@@ -23,7 +23,7 @@
                 <plugin>
                     <groupId>com.jayway.maven.plugins.android.generation2</groupId>
                     <artifactId>android-maven-plugin</artifactId>
-                    <version>3.6.1-SNAPSHOT</version>
+                    <version>3.6.0</version>
                     <extensions>true</extensions>
                 </plugin>
             </plugins>
@@ -35,7 +35,7 @@
                 <configuration>
                     <sdk>
                         <!-- platform or api level (api level 16 = platform 4.1)-->
-                        <platform>16</platform>
+                        <platform>14</platform>
                     </sdk>
                 </configuration>
             </plugin>
